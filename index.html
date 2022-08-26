@@ -17,6 +17,11 @@
             <h1>Oi, eu sou gay.</h1>
         </header>
         <section>
+            <picture>
+                <source media="(min-width: 810px)" srcset="/images/me/400x400.jpg">
+                <source media="(min-width: 370px)" srcset="/images/me/200x200.jpg">
+                <img src="/images/me/400x400.jpg" >
+            </picture>
             <p>É. Acho que todo mundo já deve estar ciente disso nessa altura do campeonado, pra ser sincero 😅, mas fica aqui oficializado, 
                 materializado e publicado na internet para que todos tenham a confirmação disso.</p>
         </section>
@@ -24,7 +29,10 @@
     
     <footer>
         <picture>
-            <img src="images/signature_300x92.png" />
+            <source media="(min-width: 1000px)" srcset="/images/signature/200x61.png">
+            <source media="(min-width: 810px)" srcset="/images/signature/300x92.png">
+            <source media="(min-width: 370px)" srcset="/images/signature/200x61.png">
+            <img src="/images/signature/300x92.png" />
         </picture>
     </footer>
 </body>
