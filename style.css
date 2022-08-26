@@ -6,4 +6,21 @@ body {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+a {
+    color: #121212;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000000;
+        color: #FAFAFA;
+    }
+
+    a {
+        color: #b7b3b3;
+    }    
 }
